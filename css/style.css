@@ -1,0 +1,97 @@
+:root {
+    --CORNFLOWER: #E7E9FC;
+    --WHITE: #FFF;
+    --SLATE: #434455;
+    --NAVY-BLUE: #2E2F42;
+    --IRIS: #4D5AE5;
+    --CLOUD: #F4F4FD;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--NAVY-BLUE);
+}
+
+.footer {
+    background-color: var(--NAVY-BLUE);
+    color: var(--CLOUD);
+}
+
+.logo footer {
+    color: var(--CLOUD);
+}
+
+.logo span {
+    color: var(--IRIS);
+}
+
+.logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-size: 18px;
+    text-decoration: none;
+    letter-spacing: 0.54px;
+}
+
+#logo-id {
+    color: var(--NAVY-BLUE);
+}
+
+h2 {
+    text-align: center;
+}
+
+/* .team-members {
+    list-style: none;
+    padding-left: 0;
+} */
+
+/* .platform-types {
+    list-style: none;
+    padding-left: 0;
+} */
+
+.list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--NAVY-BLUE);
+}
+
+.hero {
+    background-color: var(--NAVY-BLUE);
+    color: var(--WHITE);
+}
+
+.nav-list {
+    color: var(--NAVY-BLUE);
+    font-weight: 500;
+}
+
+.hero h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hero button {
+    background-color: var(--IRIS);
+    text-align: left;
+    color: var(--WHITE);
+}
+
+.nav-list {
+    padding: 0;
+    margin: 0;
+    border: 0px;
+    border-collapse: collapse;
+}
+
+.contact-list {
+    padding: 0;
+    margin: 0;
+    border: 0px;
+    border-collapse: collapse;
+}
